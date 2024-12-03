@@ -1,86 +1,86 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Wordle Challenge</title>
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="footer.css">
-</head>
-<body>
-<header>
-    <div class="navigation-bar">
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="footer.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navigation-bar">
         <div class="navigation-container left">
-            <div class="navigation-icon">
-                <img src="assets/svgs/hamberger.svg">
-            </div>
+          <div class="navigation-icon">
+            <img src="assets/svgs/hamberger.svg" />
+          </div>
         </div>
         <div class="navigation-container right">
-            <div class="navigation-icon size-100x100">
-                <img src="assets/svgs/light.svg">
-            </div>
-            <div class="navigation-icon size-100x100">
-                <img src="assets/svgs/chart.svg">
-            </div>
-            <div class="navigation-icon size-100x100">
-                <img src="assets/svgs/help.svg">
-            </div>
-            <div class="navigation-icon size-100x100">
-                <img src="assets/svgs/setting.svg">
-            </div>
-            <div class="subscribe-button">
-                <span>Subscribe to Games</span>
-            </div>
+          <div class="navigation-icon size-100x100">
+            <img src="assets/svgs/light.svg" />
+          </div>
+          <div class="navigation-icon size-100x100">
+            <img src="assets/svgs/chart.svg" />
+          </div>
+          <div class="navigation-icon size-100x100">
+            <img src="assets/svgs/help.svg" />
+          </div>
+          <div class="navigation-icon size-100x100">
+            <img src="assets/svgs/setting.svg" />
+          </div>
+          <div class="subscribe-button">
+            <span>Subscribe to Games</span>
+          </div>
         </div>
-    </div>
-</header>
-<main>
-    <div id="timer">time: 00:00</div>
-    <div class="board-row row-1">
+      </div>
+    </header>
+    <main>
+      <div id="timer">time: 00:00</div>
+      <div class="board-row row-1">
         <div class="board-block" data-index="00"></div>
         <div class="board-block" data-index="01"></div>
         <div class="board-block" data-index="02"></div>
         <div class="board-block" data-index="03"></div>
         <div class="board-block" data-index="04"></div>
-    </div>
-    <div class="board-row row-2">
+      </div>
+      <div class="board-row row-2">
         <div class="board-block" data-index="10"></div>
         <div class="board-block" data-index="11"></div>
         <div class="board-block" data-index="12"></div>
         <div class="board-block" data-index="13"></div>
         <div class="board-block" data-index="14"></div>
-    </div>
-    <div class="board-row row-3">
+      </div>
+      <div class="board-row row-3">
         <div class="board-block" data-index="20"></div>
         <div class="board-block" data-index="21"></div>
         <div class="board-block" data-index="22"></div>
         <div class="board-block" data-index="23"></div>
         <div class="board-block" data-index="24"></div>
-    </div>
-    <div class="board-row row-4">
+      </div>
+      <div class="board-row row-4">
         <div class="board-block" data-index="30"></div>
         <div class="board-block" data-index="31"></div>
         <div class="board-block" data-index="32"></div>
         <div class="board-block" data-index="33"></div>
         <div class="board-block" data-index="34"></div>
-    </div>
-    <div class="board-row row-5">
+      </div>
+      <div class="board-row row-5">
         <div class="board-block" data-index="40"></div>
         <div class="board-block" data-index="41"></div>
         <div class="board-block" data-index="42"></div>
         <div class="board-block" data-index="43"></div>
         <div class="board-block" data-index="44"></div>
-    </div>
-    <div class="board-row row-6">
+      </div>
+      <div class="board-row row-6">
         <div class="board-block" data-index="50"></div>
         <div class="board-block" data-index="51"></div>
         <div class="board-block" data-index="52"></div>
         <div class="board-block" data-index="53"></div>
         <div class="board-block" data-index="54"></div>
-    </div>
-</main>
-<footer>
-    <div class="keyboard-row row-1">
+      </div>
+    </main>
+    <footer>
+      <div class="keyboard-row row-1">
         <div class="keyboard-button" data-key="Q"><span>Q</span></div>
         <div class="keyboard-button" data-key="W"><span>W</span></div>
         <div class="keyboard-button" data-key="E"><span>E</span></div>
@@ -91,8 +91,8 @@
         <div class="keyboard-button" data-key="I"><span>I</span></div>
         <div class="keyboard-button" data-key="O"><span>O</span></div>
         <div class="keyboard-button" data-key="P"><span>P</span></div>
-    </div>
-    <div class="keyboard-row row-2">
+      </div>
+      <div class="keyboard-row row-2">
         <div class="keyboard-button" data-key="A"><span>A</span></div>
         <div class="keyboard-button" data-key="S"><span>S</span></div>
         <div class="keyboard-button" data-key="D"><span>D</span></div>
@@ -102,9 +102,11 @@
         <div class="keyboard-button" data-key="J"><span>J</span></div>
         <div class="keyboard-button" data-key="K"><span>K</span></div>
         <div class="keyboard-button" data-key="L"><span>L</span></div>
-    </div>
-    <div class="keyboard-row row-3">
-        <div class="keyboard-button key-button" data-key="ENTER"><span>ENTER</span></div>
+      </div>
+      <div class="keyboard-row row-3">
+        <div class="keyboard-button key-button" data-key="ENTER">
+          <span>ENTER</span>
+        </div>
         <div class="keyboard-button" data-key="Z"><span>Z</span></div>
         <div class="keyboard-button" data-key="X"><span>X</span></div>
         <div class="keyboard-button" data-key="C"><span>C</span></div>
@@ -113,10 +115,10 @@
         <div class="keyboard-button" data-key="N"><span>N</span></div>
         <div class="keyboard-button" data-key="M"><span>M</span></div>
         <div class="keyboard-button key-button" data-key="BACk">
-            <img src="assets/svgs/delete.svg">
+          <img src="assets/svgs/delete.svg" />
         </div>
-    </div>
-</footer>
-<script src="javascripts/index.js"></script>
-</body>
+      </div>
+    </footer>
+    <script src="javascripts/index.js"></script>
+  </body>
 </html>

@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85561183-cabe-449e-828b-cec930ac869d" name="변경" comment="Create Project">
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/WordleChallenge.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WordleChallenge.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/javascripts/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
